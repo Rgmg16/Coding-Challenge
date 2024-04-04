@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            font-family:BurbankBigCondensed-Bold;
+        }
+        p{
+            font-family: Aveden;
+        }
+    </style>
+</head>
+<body>
+    <p class="g" style="background-color: darksalmon; color: black;">This is the paragraph.</p>
+    <button id="m" >Text</button>
+    <button id="n" >Text Return</button>
+    <script>
+        // function gl(){
+        //     let x = document.getElementById("g").textContent="Hello, World!"
+        // }
+        // function gk(){
+        //     let x = document.getElementById("g").textContent="This is the paragraph."
+        // }
+        const click = () => {
+            let x = document.querySelector(".g").textContent="2.2+2=";
+        }
+        m.addEventListener("click", click);
+
+        const reverse = () => {
+            let y = document.querySelector(".g").textContent="4, and 4/2=";
+        }
+        n.addEventListener("click", reverse);
+    </script>
+</body>
+</html>
